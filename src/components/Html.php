@@ -2,7 +2,9 @@
 
 namespace sukung34\kit\components;
 
-class Html extends Html
+use yii\bootstrap5\Html as YiiHtml;
+
+class Html extends YiiHtml
 {
     
 }
